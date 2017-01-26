@@ -9,7 +9,7 @@ arch=('x86_64')
 url='https://discordapp.com/'
 provides=('discord-canary')
 license=('custom')
-depends=('gtk2' 'gconf' 'libnotify' 'libxss' 'glibc' 'alsa-lib' 'nspr' 'nss')
+depends=('gtk2' 'gconf' 'libnotify' 'libxss' 'glibc' 'alsa-lib' 'nspr' 'nss' 'libc++')
 optdepends=('freetype2-infinality: If you have black screens with emojis install this.' 'libpulse: For pulseaudio support' )
 
 install="DiscordCanary.install"
